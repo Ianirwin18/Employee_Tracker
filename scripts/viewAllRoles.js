@@ -1,4 +1,4 @@
-const db = require("../config/connection");
+const db = require("../config/connections");
 
 async function viewAllRoles() {
   const allRoles = await db.promise().query("SELECT * FROM roles");

@@ -1,4 +1,4 @@
-const db = require("../config/connection");
+const db = require("../config/connections");
 const inquirer = require("inquirer");
 
 async function addRole() {

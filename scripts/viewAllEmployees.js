@@ -1,4 +1,4 @@
-const db = require("../config/connection");
+const db = require("../config/connections");
 
 async function viewAllEmployees() {
   const allEmployees = await db.promise()
