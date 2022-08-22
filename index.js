@@ -17,7 +17,6 @@ async function userChoice() {
       choices: [
         "View All Employees",
         "View All Departments",
-        "View Department Salary",
         "View All Roles",
         "Add an Employee",
         "Add a Department",
@@ -38,12 +37,6 @@ async function userChoice() {
       console.log(`You picked: `, choice);
       const allDepartments = await viewAllDepartments();
       console.table(allDepartments[0]);
-      return userChoice();
-
-    case "View Department Salary":
-      console.log(`You picked: `, choice);
-      const departSalary = await viewDepartSalary();
-      console.table(departSalary[0]);
       return userChoice();
 
     case "View All Roles":
@@ -72,7 +65,7 @@ async function userChoice() {
 
     default:
       // Exit
-      console.log("Exiting Application... bye bye now!");
+      console.log("Exiting Application.. bye!");
       process.exit(1);
   }
 }
