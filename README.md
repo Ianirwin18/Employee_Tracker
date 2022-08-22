@@ -19,33 +19,24 @@ Build a command-line application from to manage a company's employee database.
 
 ## Application Preview
 
+<p align="left">
+    <img alt="employeeTrackerDemo" src="./assets/demo.png">
+</p>
+
 ## Installation
 
-- Copy the repository to your system
 - Load schema.sql and seeds.sql
-  - Option 1: Load by MySQL command line:
-    - source schema.sql
-    - source seeds.sql
-  - Option 2: Load with MySQL Workbench
 - Create .env file
-  - SET DB_NAME to 'employees_db'
-  - SET DB_USER to 'YOUR-MYSQL-USERNAME'
-  - SET DB_PASSWORD to 'YOUR-MYSQL-PASSWORD'
 - npm install
 - node index.js
 
 ## Usage
 
-- This application will allow users to view, add, and edit a company's employee database using MySQL queries
+- This application will allow users to view, add, and edit a their employee database.
 
 ## Links
 
-- Github Repository:
-  - https://github.com/brianalegre/12-MySQL-Homework
-- Video Demo (YouTube):
-  - https://youtu.be/QMs57Ste1Bw
-- Vide Demo (Github):
-  - https://github.com/brianalegre/12-MySQL-Homework/blob/main/assets/images/EmployeeTrackerDemo.mp4
+- Github Repository: https://github.com/Ianirwin18/Challenge-12-EmployeeTracker
 
 ## Technologies
 
