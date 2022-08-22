@@ -38,6 +38,8 @@ Build a command-line application from to manage a company's employee database.
 
 - Github Repository: https://github.com/Ianirwin18/Challenge-12-EmployeeTracker
 
+- Demo video: https://drive.google.com/file/d/1H8WaDYlrpRc8JFTPsBNq5Ht9menm-1X_/view?usp=sharing
+
 ## Technologies
 
 - MySQL2
