@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const mysql = require("mysql2");
-const db = require("./config/connections");
+const db = require("./config/connection");
 const viewAllDepartments = require("./scripts/viewAllDepartments");
 const viewAllEmployees = require("./scripts/viewAllEmployees");
 const viewAllRoles = require("./scripts/viewAllRoles");

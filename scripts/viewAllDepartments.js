@@ -1,8 +1,14 @@
-const db = require("../config/connections");
+const db = require("../config/connection");
 
 async function viewAllDepartments() {
-  const allDepartments = await db.promise().query("SELECT * FROM departments");
-  return allDepartments;
+  try {
+    const allDepartments = await db
+      .promise()
+      .query("SELECT * FROM departments");
+    return allDepartments;
+  } catch (err) {
+    console.log(`Something went wrong!`, err);
+  }
 }
 
 module.exports = viewAllDepartments;
